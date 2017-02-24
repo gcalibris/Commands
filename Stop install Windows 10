@@ -1,0 +1,11 @@
+# Stop install Windows 10
+open CMD and enter wusa /uninstall /KB:3035583
+
+C:\Windows\System32\GWX - remove
+
+1. Run regedit.exe as an administrator
+2. Create a key named Gwx within HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Gwx
+3. Create new dword value, named DisableGwx, with a value of 1
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Gwx]
+"DisableGwx"=dword:00000001
