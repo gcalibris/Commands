@@ -1,0 +1,1 @@
+REG add "HKLM\SYSTEM\CurrentControlSet\Control\StorageDevicePolicies" /t REG_DWORD /v WriteProtect /d 1 /f
