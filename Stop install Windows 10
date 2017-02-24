@@ -1,4 +1,4 @@
-# Stop install Windows 10
+Stop install Windows 10
 open CMD and enter wusa /uninstall /KB:3035583
 
 C:\Windows\System32\GWX - remove
